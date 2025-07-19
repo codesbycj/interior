@@ -28,7 +28,9 @@ const TestimonialData = [
     delay: 0.6,
   },
 ];
+
 const Testimonial = () => {
+  
   return (
     <div className="py-14">
       {/* heading title */}
@@ -37,7 +39,7 @@ const Testimonial = () => {
           variants={SlideUp(0.2)}
           initial="initial"
           whileInView="animate"
-          className="text-4xl font-bold font-serif"
+          className="font-serif text-4xl font-bold"
         >
           Words from our coustomers
         </motion.h1>
@@ -52,8 +54,8 @@ const Testimonial = () => {
         </motion.p>
       </div>
       {/* tesitomonial cards */}
-      <div className="bg-black p-12">
-        <div className="container grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="p-12 bg-black">
+        <div className="container grid grid-cols-1 gap-6 md:grid-cols-3">
           {TestimonialData.map((card) => {
             return (
               <motion.div
@@ -74,16 +76,16 @@ const Testimonial = () => {
                     <p className="text-sm font-bold group-hover:text-black">
                       {card.name}
                     </p>
-                    <p className="text-gray-400 text-xs group-hover:text-black">
+                    <p className="text-xs text-gray-400 group-hover:text-black">
                       {card.designation}
                     </p>
-                    <div className="text-xs mt-2">⭐⭐⭐⭐⭐</div>
+                    <div className="mt-2 text-xs">⭐⭐⭐⭐⭐</div>
                   </div>
                 </div>
                 {/* Bottom section */}
                 <hr className="my-5 border-gray-500/40" />
                 
-                  <p className="text-sm text-gray-300 group-hover:text-black duration-300">
+                  <p className="text-sm text-gray-300 duration-300 group-hover:text-black">
                     {card.text}
                   </p>
               

@@ -8,15 +8,11 @@
   }
 }
 
-
-
-/* لإخفاء الشريط في جميع المتصفحات */
 ::-webkit-scrollbar {
   display: none;
 }
 
-/* لمتصفح Firefox */
 html {
   scrollbar-width: none;
-  -ms-overflow-style: none; /* IE و Edge القديم */
+  -ms-overflow-style: none; 
 }
