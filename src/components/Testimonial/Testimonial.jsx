@@ -27,6 +27,14 @@ const TestimonialData = [
     text: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     delay: 0.6,
   },
+  {
+    id: 4,
+    name: "George",
+    designation: "Manager",
+    img: "https://i.pravatar.cc/300?img=3",
+    text: "lorem sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    delay: 0.6,
+  },
 ];
 
 const Testimonial = () => {
