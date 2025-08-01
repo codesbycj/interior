@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import { FaPhone } from "react-icons/fa6";
 import { LuMessageSquare } from "react-icons/lu";
 import { motion } from "framer-motion";
@@ -12,8 +12,8 @@ const Footer = () => {
       initial="initial"
       whileInView="animate"
     >
-      <div className="container pt-11 pb-3">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="container pb-3 pt-11">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Company info section */}
           <div className="space-y-4 font-semibold">
             <div className="flex items-center space-x-3">
@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-3">
             <div className="space-y-4">
               <h1 className="text-xl font-semibold">About us</h1>
-              <ul className="text-sm space-y-4">
+              <ul className="space-y-4 text-sm">
                 <li>
                   <a href="#">Our Story</a>
                 </li>
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
             <div className="space-y-4">
               <h1 className="text-xl font-semibold">Support</h1>
-              <ul className="text-sm space-y-4">
+              <ul className="space-y-4 text-sm">
                 <li>
                   <a href="#">FAQ's</a>
                 </li>
@@ -63,7 +63,7 @@ const Footer = () => {
           {/* Contact section */}
           <div className="space-y-4">
             <h1 className="text-xl font-semibold">Contact us</h1>
-            <ul className="text-base font-semibold space-y-4">
+            <ul className="space-y-4 text-base font-semibold">
               <li className="flex items-center space-x-3">
                 <FaPhone />
                 <a href="#">+20 1223575572</a>
@@ -77,7 +77,7 @@ const Footer = () => {
         </div>
         <hr className="mt-5 border-gray-500/40" />
         {/* bottom section */}
-        <p className="text-center text-sm font-semibold   pt-5 ">
+        <p className="pt-5 text-sm font-semibold text-center ">
           &copy; 2025 Mahmoud Fattah. All rights reserved
         </p>
       </div>
