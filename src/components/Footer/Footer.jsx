@@ -20,7 +20,7 @@ const Footer = () => {
               <img src={Logo} alt="" className="w-6" />
               <p className="text-xl font-semibold">Interior</p>
             </div>
-            <p>Aswan, Egypt</p>
+            <p>Tokyo</p>
             <p>@ 2025 MF All rights reserved</p>
           </div>
           {/* Footer Link */}
@@ -66,11 +66,11 @@ const Footer = () => {
             <ul className="space-y-4 text-base font-semibold">
               <li className="flex items-center space-x-3">
                 <FaPhone />
-                <a href="#">+20 1223575572</a>
+                <a href="#">+12 3456 789</a>
               </li>
               <li className="flex items-center space-x-3">
                 <LuMessageSquare />
-                <a href="mailto:hoodafatah@gmail.com">Email</a>
+                <a href="">Email</a>
               </li>
             </ul>
           </div>
@@ -78,7 +78,7 @@ const Footer = () => {
         <hr className="mt-5 border-gray-500/40" />
         {/* bottom section */}
         <p className="pt-5 text-sm font-semibold text-center ">
-          &copy; 2025 Mahmoud Fattah. All rights reserved
+          &copy; 2025 CJ. All rights reserved
         </p>
       </div>
     </motion.footer>
