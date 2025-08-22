@@ -24,7 +24,7 @@ const Newsletter = () => {
       </motion.p>
       {/* form here */}
       <motion.div
-        variants={SlideUp(0.6)}
+        variants={SlideUp(0.5)}
         initial="initial"
         whileInView="animate"
         className="!mt-10 flex justify-center"
