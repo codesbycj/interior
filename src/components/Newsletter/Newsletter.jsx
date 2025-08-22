@@ -9,7 +9,7 @@ const Newsletter = () => {
         variants={SlideUp(0.2)}
         initial="initial"
         whileInView="animate"
-        className="text-3xl font-bold font-serif text-center"
+        className="font-serif text-3xl font-bold text-center"
       >
         Subsribe to our Newsletter
       </motion.h1>
@@ -24,7 +24,7 @@ const Newsletter = () => {
       </motion.p>
       {/* form here */}
       <motion.div
-        variants={SlideUp(0.6)}
+        variants={SlideUp(0.5)}
         initial="initial"
         whileInView="animate"
         className="!mt-10 flex justify-center"
@@ -34,7 +34,7 @@ const Newsletter = () => {
           placeholder="Enter your email"
           className="px-4 py-4 ring-1 ring-gray-300"
         />
-        <button className="bg-black text-white px-6 py-4 uppercase">
+        <button className="px-6 py-4 text-white uppercase bg-black">
           Subscribe
         </button>
       </motion.div>
